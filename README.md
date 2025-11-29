@@ -30,7 +30,7 @@ Both services are built with **Spring Boot**, **Spring Data JPA**, and **H2 in-m
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/order-inventory-microservices-assignment.git
+https://github.com/yashvarshney007/order-inventory-microservices-assignment.git
 cd order-inventory-microservices-assignment
 
 ```
