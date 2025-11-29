@@ -53,11 +53,24 @@ cd order-inventory-microservices-assignment
 
 ---
 
+---
+
 ## 🗄️ H2 Database Consoles
-- **Inventory Service DB:** [http://localhost:8081/h2-console/](http://localhost:8081/h2-console/)  
-  - `spring.datasource.url=jdbc:h2:mem:inventorydb`
-- **Order Service DB:** [http://localhost:8082/h2-console/](http://localhost:8082/h2-console/)  
-  - `spring.datasource.url=jdbc:h2:mem:orderdb`
+
+Both services use **H2 in-memory databases**. To access them:
+
+### Inventory Service DB
+- Console: [http://localhost:8081/h2-console/](http://localhost:8081/h2-console/)
+- **JDBC URL:** `jdbc:h2:mem:inventorydb`
+- **Username:** `sa`
+- **Password:** *(leave blank)*
+
+### Order Service DB
+- Console: [http://localhost:8082/h2-console/](http://localhost:8082/h2-console/)
+- **JDBC URL:** `jdbc:h2:mem:orderdb`
+- **Username:** `sa`
+- **Password:** *(leave blank)*
+
 
 ---
 
